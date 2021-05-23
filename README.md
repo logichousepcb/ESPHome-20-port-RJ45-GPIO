@@ -21,4 +21,6 @@ To build the simple board you will need:
 
 ![GitHub Logo](https://github.com/logichousepcb/ESPHome-20-port-RJ45-GPIO/blob/main/20_PORT-WEMOS-PARTS.PNG)
 
-I have a limited supply of kits with all the parts to assemble minus the 3D Printed case.  Contact me at logixpcb@gmail.com for a kit.  
+I have a limited supply of kits with all the parts to assemble minus the 3D Printed case.  Contact me at logixpcb@gmail.com for a built baord.  
+
+Also available in my Etsy shop.    https://www.etsy.com/listing/1010173064/esphome-20-port-expander?ref=shop_home_active_1
