@@ -1,0 +1,172 @@
+esphome:
+  name: zone1hub
+  platform: ESP8266
+  board: d1_mini
+
+wifi:
+  ssid: ""
+  password: ""
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+i2c:
+  sda: D2
+  scl: D1
+  scan: True
+  id: bus_b
+
+
+mcp23017:
+  - id: 'mcp23017_hub'
+    address: 0x20
+    
+binary_sensor:
+  - platform: gpio
+    name: "zone1 pin0"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 0
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin1"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 1
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin2"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 2
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin3"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 3
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin4"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 4
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin5"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 5
+      mode: INPUT_PULLUP
+      inverted: False
+      
+  - platform: gpio
+    name: "zone1 pin6"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 6
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin7"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 7
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin8"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 8
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin9"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 9
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin10"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 10
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin11"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 11
+      mode: INPUT_PULLUP
+      inverted: False
+      
+  - platform: gpio
+    name: "zone1 pin12"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 12
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin13"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 13
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin14"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 14
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin15"
+    pin:
+      mcp23xxx: mcp23017_hub
+      number: 15
+      mode: INPUT_PULLUP
+      inverted: False
+      
+ 
+  
+  - platform: gpio
+    name: "zone1 pin16"
+    pin:
+      number: D4
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin17"
+    pin:
+      number: D5
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin18"
+    pin:
+      number: D6
+      mode: INPUT_PULLUP
+      inverted: False
+  - platform: gpio
+    name: "zone1 pin19"
+    pin:
+      number: D7
+      mode: INPUT_PULLUP
+      inverted: False
