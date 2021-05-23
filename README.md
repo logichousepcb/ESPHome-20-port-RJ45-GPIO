@@ -20,3 +20,5 @@ To build the simple board you will need:
 (1) MCP23017-E/SO - https://lcsc.com/product-detail/Interface-I-O-Expanders_Microchip-Tech-MCP23017-E-SO_C47023.html
 
 ![GitHub Logo](https://github.com/logichousepcb/ESPHome-20-port-RJ45-GPIO/blob/main/20_PORT-WEMOS-PARTS.PNG)
+
+I have a limited supply of kits with all the parts to assemble minus the 3D Printed case.  Contact me at logixpcb@gmail.com for a kit.  
