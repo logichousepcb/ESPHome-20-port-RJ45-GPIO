@@ -23,6 +23,15 @@ To build the simple board you will need:
 
 ![GitHub Logo](https://github.com/logichousepcb/ESPHome-20-port-RJ45-GPIO/blob/main/20_PORT-WEMOS-PARTS.PNG)
 
+When I was confronted with a hoard of wire sticking out the wall where the alarm panel used to exist, it was a task itself to determine which wires went to which sensors.  In my case there were 12 zones broken down as follows:
+4 doors (front/back/garage entry/basement)
+8 windows (living room/dining room/kitchen/bath/family room/basement/basement side) 
+I would note some of the windows were in pairs and had their own sensors but counted as 1 zone per pair)
+
+I used Network RJ45 connectors to connect the wire pairs to.  Each cable that was prewired had 4 wires (red/black/green/yellow)
+
+![image](https://user-images.githubusercontent.com/73470843/122211133-6458c700-ce74-11eb-82bf-ae192161487b.png)
+
 I have a limited supply of kits with all the parts to assemble minus the 3D Printed case.  Contact me at logixpcb@gmail.com for a built baord.  
 
 Also available in my Etsy shop.    https://www.etsy.com/listing/1010173064/esphome-20-port-expander?ref=shop_home_active_1
