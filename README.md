@@ -30,7 +30,7 @@ I would note some of the windows were in pairs and had their own sensors but cou
 
 I used Network RJ45 connectors to connect the wire pairs to.  Each cable that was prewired had 4 wires (red/black/green/yellow)
 
-![image](https://user-images.githubusercontent.com/73470843/122211133-6458c700-ce74-11eb-82bf-ae192161487b.png)
+![image](https://github.com/logichousepcb/ESPHome-20-port-RJ45-GPIO/blob/main/RJ45%20punchdown.JPG)
 
 I have a limited supply of kits with all the parts to assemble minus the 3D Printed case.  Contact me at logixpcb@gmail.com for a built baord.  
 
