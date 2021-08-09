@@ -35,6 +35,7 @@ I used Network RJ45 connectors to connect the wire pairs to.  Each cable that wa
 I have recently created a 4 button panel that cneected via RJ45 to go in a decora switch plate.  You can run 4 panels with 4 buttons each off this board.  I will be designing a decora faceplate for the buttons once I receive the sample boards and will include the .stl files once completed.
 
 ![image](https://github.com/logichousepcb/ESPHome-20-port-RJ45-GPIO/blob/main/4%20Button%20switchplate.JPG)
+
 I have a limited supply of kits with all the parts to assemble minus the 3D Printed case.  Contact me at logixpcb@gmail.com for a built baord.  
 
 Also available in my Etsy shop.    https://www.etsy.com/listing/1010173064/esphome-20-port-expander?ref=shop_home_active_1
