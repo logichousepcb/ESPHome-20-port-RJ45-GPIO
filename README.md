@@ -1,5 +1,5 @@
 # ESPHome-20-port-RJ45-GPIO
-ESPHome 20 port RJ45 GPIO
+ESPHome 25 port RJ45 GPIO
 
 This is a simple device that uses a Wemos D1 Mini and a MCP23017 port expander to give you 20 binary sensor ports.  Each RJ45 connector contains 4 twisted pair and each twisted pair acts as one binary sensor for connecting to reed switches, buttons, switches, you decide.  This can replace a home alarm system panel to connect the Home Assistant via ESPHome.  Simply use RJ45 Keystome connectors and connect your alarm panel wires to each pair on the jack.  Then connect the jack to device via thernet cable. 
 
@@ -32,7 +32,7 @@ I used Network RJ45 connectors to connect the wire pairs to.  Each cable that wa
 
 ![image](https://github.com/logichousepcb/ESPHome-20-port-RJ45-GPIO/blob/main/RJ45%20punchdown.JPG)
 
-I have recently created a 5 button panel that cneected via RJ45 to go in a decora switch plate.  You can run 4 panels with 4 buttons each off this board.  I will be designing a decora faceplate for the buttons once I receive the sample boards and will include the .stl files once completed.
+I have recently created a 4 button panel that cneected via RJ45 to go in a decora switch plate.  You can run 5 panels with 4 buttons each off this board.  I have designed a decora faceplate and the .stl are on here as well.
 
 ![image](https://github.com/logichousepcb/ESPHome-20-port-RJ45-GPIO/blob/main/4%20Button%20switchplate.JPG)
 
